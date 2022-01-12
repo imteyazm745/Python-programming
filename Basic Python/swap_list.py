@@ -14,3 +14,7 @@ def swapList(newList):
 newList = [12, 35, 9, 56, 24]
  
 print(swapList(newList))
+
+"""
+[24, 35, 9, 56, 12]
+"""
