@@ -32,3 +32,24 @@ for i in range(1, size+1):
  ****
 *****
 """
+
+# downward triangle star pattern
+n = 5
+for i in range(n):
+    print('*' * (n - i))
+
+"""
+*****
+****
+***
+**
+*
+"""
+
+
+
+
+
+
+
+
