@@ -1,0 +1,23 @@
+Variable:  
+A variable is basically nothing but the name of a memory location that we use for storing data. We can change the value of a variable in C or any other language, and we can also reuse it multiple times.
+
+Creating a Variable:  
+checkingAccount = 500
+savingsAccount = 1000
+
+# add 100 to our savings (Yeah!)
+savingsAccount = savingsAccount + 100
+
+# remove 50 from our checkingaccount (Sniff)
+checkingAccount = checkingAccount - 50
+
+# calculate the number of days to save to reach 5000
+numberDaysSave = (5000 - checkingAccount) / 500
+
+# update our checkingaccount (again) after the daily gains/losses
+checkingAccount = checkingAccount + (30 - 10) * 7
+Lines starting with a # are comments. They are used to document your code and help others understand it.
+The other lines of code (which can run operations, declarations, etc.) are expressions. They tell the computer what to do.
+each of the expressions assigns a value to a variable. The assignment operator is   = .
+To the right of the assignment operator is the expression that will create/calculate a value.
+To the left of the assignment operator, you write the name of the variable to which you will assign the corresponding value.
