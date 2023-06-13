@@ -42,3 +42,11 @@ Naturally, there is a version for each arithmetic operator seen previously:
 *=  for multiplication
 /=  for division
 %=  for the remainder of the integer division
+
+Let's Recap
+In this chapter, you have learned the basics about variables:
+A variable is made up of two parts: its name and its value.
+Assigning a value to a variable is called an assignment.
+The value of a variable can be changed.
+The type of a variable depends on its value.
+The names of your variables should be clear, explicit, and should follow a typographic convention.
