@@ -21,3 +21,24 @@ The other lines of code (which can run operations, declarations, etc.) are expre
 each of the expressions assigns a value to a variable. The assignment operator is   = .
 To the right of the assignment operator is the expression that will create/calculate a value.
 To the left of the assignment operator, you write the name of the variable to which you will assign the corresponding value.
+
+There are also other arithmetic operators that are a little more complex, but nevertheless useful, such as:
+% modulo : returns the remainder of the euclidean division
+** power : raises a number to a certain power
+// integer division: calculates the integer division (rounded down)
+print(SavingsAccount % 500) # -> 100
+# 1100 = 500 * 2 + 100, so 1100 % 500 = remainder = 100
+print(9 ** 3) # -> 729, 9*9*9 = 729
+print(SavingsAccount // 500) # -> 2
+# 1100 = 500 * 2 + 100, so 1100 // 500 = integer division result = 2*
+Shorter Code
+# long version
+savingsAccount = savingsAccount + 100
+
+# equivalent short version
+savingsAccount += 100
+Naturally, there is a version for each arithmetic operator seen previously:
+-=  for subtraction
+*=  for multiplication
+/=  for division
+%=  for the remainder of the integer division
