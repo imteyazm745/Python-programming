@@ -63,3 +63,10 @@ c = a/b
 print(c)
 # it's a float
 
+Concatenation:
+However, you can force the conversion of a variable into a well-defined type. This is called typecasting because by doing so you are changing (casting) the type of a variable. To do this, you will need the corresponding functions:
+a = 14.0
+# a is a float
+a = int(a)
+print(a)
+# a is now an integer: it prints 14 and not 14.0
