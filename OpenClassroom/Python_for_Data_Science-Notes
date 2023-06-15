@@ -70,3 +70,21 @@ a = 14.0
 a = int(a)
 print(a)
 # a is now an integer: it prints 14 and not 14.0
+
+Character Strings:
+character strings are string types in Python, assembling several strings together is called concatenation. 
+
+favoriteCityOne = "San Francisco"
+favoriteCityTwo = "New York"
+favorites = favoriteCityOne + favoriteCityTwo
+print(favorites) # => "San FranciscoNew York"
+favorites1 = "My favorite cities are " + favoriteCityOne + " and "+ favoriteCityTwo
+print(favorites1) # -> "My favorite cities are San Francisco and New York"
+
+However, you cannot concatenate other types of variables with strings, such as numeric variables---this would return an error. To remedy this, you will need to cast your numeric variable to a string, via the  str()  function:
+
+city = "Sydney"
+numberTrips = 5
+history = "I've been to " + city + " " + str(numberTrips) + " times "
+print(history) # => "I've been to Sydney 5 times"
+
