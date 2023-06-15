@@ -88,3 +88,9 @@ numberTrips = 5
 history = "I've been to " + city + " " + str(numberTrips) + " times "
 print(history) # => "I've been to Sydney 5 times"
 
+Let's Recap:
+There are three primitive types of variables, such as  integers, float, strings
+We have also seen how to use these different types:
+  You can perform numeric operations on numeric variables of different types.
+  You can cast variables to force the transformation of the type of a variable into another specific type, according to your needs.
+  Strings can be assembled together: this is called concatenation.
