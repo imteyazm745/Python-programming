@@ -129,3 +129,15 @@ def printPerimeter():
 printPerimeter() # => 13
 This function is correct, but not entirely useful: not all of your triangles will have the exact same dimensions.
 
+Define the Parameters:
+To overcome this limitation, you must make your function accept external numbers. You can do this by defining parameters.
+In Python, parameters, just like the name of the function, are defined when the function is written. This is how it would look with the above example:
+def printPerimeter(dimension1, dimension2, dimension3):
+    perimeter = dimension1 + dimension2 + dimension3
+    print(perimeter)
+printPerimeter(10, 11, 4) # => 25
+printPerimeter(2, 2, 3.5) # => 7.5
+Parameters are variables declared in a function. The values that are passed as parameters are called arguments.
+Often, when you use a function in a code, you expect an answer that you can reuse to move forward in the code. This answer can be provided via the value returned by a function.
+
+
