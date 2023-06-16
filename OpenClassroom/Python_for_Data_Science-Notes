@@ -100,3 +100,32 @@ Functions can group several statements in a block which will be called using a n
 Functions are not specific to Python; they are present in all computer languages. They can:
 reuse a portion of code already written just by stating the function name—so you don't have to rewrite the whole portion of code each time.
 simplify code and make it more readable!
+
+There are many pre-existing functions in Python! In addition to those already seen, there are, for example:
+len() :  a function that returns the length of an item. Do you remember strings? Using this function on a string tells you how many characters the string contains.
+type() : lets you print the type of a variable.
+pow(a, b) : lets you calculate a to the power of b. It is equivalent to writing a**b.
+abs() :  returns the absolute value of a number.
+a="apple"
+print(len(a)) #5
+print(type(a)) #<class 'str'>
+print(pow(4,2)) #16
+print(abs(-100)) #100
+Write your own function:
+A function is defined via the keyword   def  followed by the name of the function. All the statements associated with this function will then be written after the colon.
+def functionName():
+    # statements
+    # that can go
+    # on several
+    # lines
+Note that all the statements associated with your function are offset in the code: this is called indentation.
+Now define a function that would answer your problem:
+def printPerimeter():
+    dimension1 = 6
+    dimension2 = 4
+    dimension3 = 3
+    perimeter = dimension1 + dimension2 + dimension3
+    print(perimeter)
+printPerimeter() # => 13
+This function is correct, but not entirely useful: not all of your triangles will have the exact same dimensions.
+
