@@ -94,3 +94,9 @@ We have also seen how to use these different types:
   You can perform numeric operations on numeric variables of different types.
   You can cast variables to force the transformation of the type of a variable into another specific type, according to your needs.
   Strings can be assembled together: this is called concatenation.
+
+Function:
+Functions can group several statements in a block which will be called using a name.
+Functions are not specific to Python; they are present in all computer languages. They can:
+reuse a portion of code already written just by stating the function name—so you don't have to rewrite the whole portion of code each time.
+simplify code and make it more readable!
