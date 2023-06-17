@@ -151,3 +151,9 @@ perimeter1 = calculatePerimeter(6, 4, 3)
 perimeter2 = calculatePerimeter(10, 3, 11)
 print("The perimeter of my first triangle is", perimeter1, "and that of my second is", perimet
 
+Use the help function if you forget:
+Sometimes you often remember the name of a function, but not necessarily what it does or its arguments, etc. Don’t panic! The help function is there for that! If you run help(funtionName), this will print the documentation of this function summarizing:
+its purpose.
+recommendations for use.
+the list and description of the parameters.
+sometimes even examples.
