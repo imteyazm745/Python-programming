@@ -140,4 +140,14 @@ printPerimeter(2, 2, 3.5) # => 7.5
 Parameters are variables declared in a function. The values that are passed as parameters are called arguments.
 Often, when you use a function in a code, you expect an answer that you can reuse to move forward in the code. This answer can be provided via the value returned by a function.
 
+Define a Return Value
+To define a return value, you must explicitly use the return keyword at the end of your function.
+You could change your   printPerimeter  function into   calculatePerimeter  which will return the perimeter of a triangle, according to the length of its three sides, so that it can be reused afterwards:
+def calculatePerimeter(dimension1, dimension2, dimension3):
+    perimeter = dimension1 + dimension2 + dimension3
+    return perimeter
+# Once you have defined your function, you can use it as many times as necessary:
+perimeter1 = calculatePerimeter(6, 4, 3)
+perimeter2 = calculatePerimeter(10, 3, 11)
+print("The perimeter of my first triangle is", perimeter1, "and that of my second is", perimet
 
