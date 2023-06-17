@@ -157,3 +157,12 @@ its purpose.
 recommendations for use.
 the list and description of the parameters.
 sometimes even examples.
+
+Let's Recap
+In this chapter we have learnt that:
+functions can have parameters and return values.
+a return value is the result of running the function. The return value is returned to the code that called the function, to be used as needed.
+The parameters are the data necessary for a function to be run and generate a result.
+parameters are variables defined by a name. Parameters are specified in the function declaration.
+when using a function, you pass it different values as parameters. These values are called arguments.
+you can use the help function to print the documentation of a given function.
