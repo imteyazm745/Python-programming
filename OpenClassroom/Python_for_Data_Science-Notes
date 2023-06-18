@@ -166,3 +166,18 @@ The parameters are the data necessary for a function to be run and generate a re
 parameters are variables defined by a name. Parameters are specified in the function declaration.
 when using a function, you pass it different values as parameters. These values are called arguments.
 you can use the help function to print the documentation of a given function.
+
+OOPS:
+Python is an object-oriented programming language—this means that in Python, everything is an object!
+In programming, this concept of a group or category of objects is called a class. A class can be considered as the construction diagram for an object that will define the characteristics of all objects of this type and their features. From this class, you will be able to create different models of an object.
+Let's take a concrete example with a Car class. The plan of a car can be defined by:
+its characteristics, called attributes: it must have four wheels, a color, a shape, an engine power, etc.
+its functionalities, called methods: it can drive, brake, etc.
+So, from this plan, you can create different car models:
+An ordinary family car, green, medium power (110 hp)
+A sports car, red, relatively powerful (180 hp)
+A small blue city car, not very powerful (90 hp)
+etc.
+And no matter what the car model, they are all capable of driving or braking, but not with the same performance!
+In summary, a class is the outline of an object, defining its attributes and methods. From the same class, you can therefore create several objects of the same type, but with different attributes—these are called class instances.
+
