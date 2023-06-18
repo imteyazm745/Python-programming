@@ -181,3 +181,6 @@ etc.
 And no matter what the car model, they are all capable of driving or braking, but not with the same performance!
 In summary, a class is the outline of an object, defining its attributes and methods. From the same class, you can therefore create several objects of the same type, but with different attributes—these are called class instances.
 
+Focus on Methods:
+A class method is a function that is only available for the instances of this class. If, for example, we consider the Car class presented above having a drive() method, and a Plane class having a fly() method, you will agree quite logically that a plane can’t drive, and a car can’t fly. The same goes for our various objects!
+The use of a method is always done via the   variableName.method()  notation. For example, strings have a method called   lower()  which will transform all the text contained in an object into lower case. Here's how to use it:
