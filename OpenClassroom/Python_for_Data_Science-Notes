@@ -184,3 +184,12 @@ In summary, a class is the outline of an object, defining its attributes and met
 Focus on Methods:
 A class method is a function that is only available for the instances of this class. If, for example, we consider the Car class presented above having a drive() method, and a Plane class having a fly() method, you will agree quite logically that a plane can’t drive, and a car can’t fly. The same goes for our various objects!
 The use of a method is always done via the   variableName.method()  notation. For example, strings have a method called   lower()  which will transform all the text contained in an object into lower case. Here's how to use it:
+
+Strings Methods:
+Python has implemented many methods to allow us to do all this. Here are the most common ones:
+upper() :  returns the whole text in upper case.
+lower(): returns the whole text in lower case.
+capitalize() :  returns the whole text in lowercase with the first letter capitalized.
+replace(old, new) :  this method takes two arguments: old and new, both of which are strings.  The method returns the original string with all occurrences of old replaced with new. 
+find(string)  returns either the index of the first occurrence of the string passed in the  argument, or -1 if it does not find it.
+
