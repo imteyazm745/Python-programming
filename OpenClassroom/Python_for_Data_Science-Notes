@@ -193,3 +193,22 @@ capitalize() :  returns the whole text in lowercase with the first letter capita
 replace(old, new) :  this method takes two arguments: old and new, both of which are strings.  The method returns the original string with all occurrences of old replaced with new. 
 find(string)  returns either the index of the first occurrence of the string passed in the  argument, or -1 if it does not find it.
 
+Here are some examples of how these methods are used:
+text = “here is an EXAMPLE of a STRING”
+a = text.upper()
+b = text.lower()
+print(a)
+print(b)
+print(text.capitalize())
+print(text.replace(‘EXAMPLE’, ‘test’))
+print(text.find(‘an’)
+print(text.find(‘two’)
+Output:
+HERE IS AN EXAMPLE OF A STRING
+here is an example of a string
+Here is an example of a string
+Here is an test of a STRING
+8
+-1
+
+
