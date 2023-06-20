@@ -228,4 +228,20 @@ customerName4 = 'Isaac Steele'
 If you have 10 customers to analyze, wouldn't it be easier to store them all in a single variable that would contain all the information?
 You're in luck! Python offers a structure, a class capable of storing multiple pieces of information as a kind of array. This structure is called a list. Let's see how to use it.
 
+Lists:
+Lists are objects that can contain a collection of objects of any type. a list containing floats, a list containing strings, or even a list mixing objects of different types.
+Lists are ordered objects, i.e., each item of the list is associated with a number corresponding to its order in the list. This number is called an index and it starts at 0 (not 1!). The first item is therefore associated with index 0, the second with index 1, etc.
+Declaring a list is quite similar to the declaration of any variable seen so far: via a name to which we associate a list of items to be stored in this name.
+For example, here is the list containing the names of four customers:
+customerName = ['Marion Weaver', 'Alberto Mendoza', 'Katharine Tyler', 'Isaac Steele']
+Now that your list is created, you can perform two basic operations:
+Access a value at a given index
+Change the value at a given index
+In both cases, the code consists of the name of the variable followed by  [, the value of the index and  ].
+For example, if you made a mistake on the name of the first customer and you want to correct their name:
+# assign the value 'Marianne Weaver' to the first name in our list
+# it is index 0, because indices start at 0 in python!
+customerName[0] = 'Marianne Weaver'
+To print it, you can write the following line:
+print(customerName[0])
 
