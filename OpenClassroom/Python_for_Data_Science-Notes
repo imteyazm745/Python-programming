@@ -211,4 +211,10 @@ Here is an test of a STRING
 8
 -1
 
+Let's Recap:
+A class is a construction plan for an object.
+A variable is an instance of a class or an object.
+An object is defined by its attributes.
+All instances of a class have access to the same methods via the.  (dot) notation.
+A method, like a function, generally does not modify the initial object.
 
