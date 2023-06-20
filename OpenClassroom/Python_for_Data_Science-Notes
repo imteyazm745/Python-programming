@@ -218,3 +218,14 @@ An object is defined by its attributes.
 All instances of a class have access to the same methods via the.  (dot) notation.
 A method, like a function, generally does not modify the initial object.
 
+Collections: Types => Lists and Dictionaries
+If you want to analyze several customers at once, you can imagine that you need a variable for each customer. For the names, this could look like this:
+customerName1 = 'Marion Weaver'
+customerName2 = 'Alberto Mendoza'
+customerName3 = 'Katharine Tyler'
+customerName4 = 'Isaac Steele'
+# etc.
+If you have 10 customers to analyze, wouldn't it be easier to store them all in a single variable that would contain all the information?
+You're in luck! Python offers a structure, a class capable of storing multiple pieces of information as a kind of array. This structure is called a list. Let's see how to use it.
+
+
