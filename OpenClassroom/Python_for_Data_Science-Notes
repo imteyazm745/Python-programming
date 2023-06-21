@@ -280,3 +280,18 @@ list.index(5) 		# prints 1
 list.extend([1, 2, 3]) 	# [4, 5, 1, 2, 3]
 del list[3] 		# [4, 5, 1, 3]
 
+len() function:
+The   len()  function lets you retrieve the size of your list:
+list = [1, 2, 3]
+len(list) # will print 3
+Example2:
+#guests = []
+#guests.append([‘Joey’, ‘Martin’, ‘Mary’]) #[[‘Joey’, ‘Martin’, ‘Mary”]]  append() takes exactly one argument
+#len(guests) #1
+guests.extend([‘Joey’, ‘Martin’, ‘Mary’]) #[‘Joey’, ‘Martin’, ‘Mary”]
+len(guests) #3
+
+Replace Martin with John in the list:
+guests.insert(1, ‘John’) #it will add john in index 1 and 
+guests.remove(‘Martin’) #it will delete Martin from the list
+guests.remove(‘Joey’) #it will delete Joey from the list
