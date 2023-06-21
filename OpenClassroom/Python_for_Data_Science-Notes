@@ -260,3 +260,23 @@ For example, the following list is completely valid:
 strangeList = [4, 10.2, 'Marion Weaver', ['another list', 1]]
 # print the 4th item of the list
 print(strangeList[3])
+
+List Methods:
+Here are some other methods that are essential to know about lists:
+append(): to add the values in the list, and append() takes exactly one argument
+insert  to insert a new item at a specific position. For example,   list.insert(1, 12)  will insert the integer 12 at index 1, moving the old item 1 to index 2 and so on.
+extend :  similar to append, but with another list. This allows you to concatenate several lists together.
+remove : searches for the given item in the list and deletes the first occurrence. For example, if you want to delete 5 from your list, you can use :  list.remove(5) .
+index : this method lets you find the index of the first occurrence of an item to be searched for in our list;
+Keyword  del  to delete an item according to its index.
+Now let's try out some of these methods:
+list = []
+list.append(7) 		# -> [7]
+list.append(5) 		# -> [7, 5]
+list.insert(1,12) 		# [7, 12, 5]
+list[0] = 4 		# -> [4, 12, 5]
+list.remove(12) 		# [4, 5]
+list.index(5) 		# prints 1
+list.extend([1, 2, 3]) 	# [4, 5, 1, 2, 3]
+del list[3] 		# [4, 5, 1, 3]
+
