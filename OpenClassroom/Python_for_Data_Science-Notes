@@ -295,3 +295,12 @@ Replace Martin with John in the list:
 guests.insert(1, ‘John’) #it will add john in index 1 and 
 guests.remove(‘Martin’) #it will delete Martin from the list
 guests.remove(‘Joey’) #it will delete Joey from the list
+
+Dictionary:
+Dictionaries are another type of object, similar to lists, but which will let you do this with a single variable! Indeed, a dictionary is a list of items organized via a system of keys. With a real dictionary, you look up a word to access its definition. In programming, this word corresponds to the key and the definition to the value associated with it. This is called a key-value pair. So, we could have:
+
+Marion Weaver    Alberto Mendoza    Katharine Tyler    Isaac Steele
+  10000                150            300                1800.74
+Each key in a dictionary must be unique. Strings are generally used to define keys, but this is not a requirement
+
+
