@@ -309,3 +309,17 @@ accounts = {'Marion Weaver': 10000, 'Alberto Mendoza': 150, 'Katharine Tyler': 3
 print(accounts['Alberto Mendoza']) # -> 150
 The last line will print the value associated with the key "Alberto Mendoza" which is 150.
 
+Manipulate the Items of a Dictionary
+Here are the operations frequently carried out with dictionaries:
+Access the value of an item
+Add a new item (a new key-value pair)
+Delete an item via its key
+A value can be accessed or modified using the same notation as with lists. With dictionaries, unlike lists, this notation even lets you add items.
+Let's see this in action in the following example:
+accounts['Marion Weaver'] -= 2000 # I subtract 2000 from David's account
+accounts['Kristian Roach'] = 1000 # I add a new individual in my dictionary
+print(accounts['Kristian Roach']) # I print the value of Kristian's account
+Finally, you can delete an item via the pop()  method by specifying the key of the item you want to delete.
+accounts.pop('Alberto Mendoza') # deletes Alberto Mendoza from our dictionary
+Finally, in the same way as with lists, you can use the   len()  function to see how your dictionary grows in size:
+len(accounts) # -> 3
