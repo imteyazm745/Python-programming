@@ -323,3 +323,14 @@ Finally, you can delete an item via the pop()  method by specifying the key of t
 accounts.pop('Alberto Mendoza') # deletes Alberto Mendoza from our dictionary
 Finally, in the same way as with lists, you can use the   len()  function to see how your dictionary grows in size:
 len(accounts) # -> 3
+
+Tuples:  Immutable means it cannot be modified
+The last type of collection we will look at is tuples. These are very similar to lists:
+They are ordered objects, so we can access the different items stored in a tuple from their index.
+You can store any kind of object in a tuple.
+The main difference is that once a tuple has been declared, it cannot be modified. It is then said that it is immutable.
+We can't modify a tuple? So what's the point of it?!
+They might not seem to provide much benefit at first sight, but they can be used:
+when you want to make sure that data is not modified within a program.
+to return several values from a function. Indeed, we didn't address this point when we talked about functions, but it is possible to return several values... with a tuple!
+to declare several variables in one line.
