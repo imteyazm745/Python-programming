@@ -334,3 +334,16 @@ They might not seem to provide much benefit at first sight, but they can be used
 when you want to make sure that data is not modified within a program.
 to return several values from a function. Indeed, we didn't address this point when we talked about functions, but it is possible to return several values... with a tuple!
 to declare several variables in one line.
+
+Declare a Tuple
+Tuples are declared in a very similar way to lists, except parentheses are used instead of square brackets:
+my_tuple = (1, 2, 3, 'a', 'b')
+Manipulate Tuples
+As explained above, tuples are ordered objects, so we can use indices to select the items of a tuple:
+print(my_tuple[1]) # -> 2
+print(my_tuple[4]) # -> 'b'
+You can also declare several variables at the same time from a tuple:
+a, b = (1, 'apple')
+print(a) # -> 1
+print(b) # -> 'apple'
+My_tuple[2] = 4 # it will give error.
