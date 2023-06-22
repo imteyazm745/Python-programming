@@ -303,4 +303,9 @@ Marion Weaver    Alberto Mendoza    Katharine Tyler    Isaac Steele
   10000                150            300                1800.74
 Each key in a dictionary must be unique. Strings are generally used to define keys, but this is not a requirement
 
+Declare a Dictionary:
+Lists and dictionaries are declared in a similar way, except that a dictionary uses curly brackets instead of square brackets, and key-value pairs must be declared:
+accounts = {'Marion Weaver': 10000, 'Alberto Mendoza': 150, 'Katharine Tyler': 300, 'Isaac Steele': 1800.74}
+print(accounts['Alberto Mendoza']) # -> 150
+The last line will print the value associated with the key "Alberto Mendoza" which is 150.
 
