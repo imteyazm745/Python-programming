@@ -169,7 +169,9 @@ you can use the help function to print the documentation of a given function.
 
 OOPS:
 Python is an object-oriented programming language—this means that in Python, everything is an object!
-In programming, this concept of a group or category of objects is called a class. A class can be considered as the construction diagram for an object that will define the characteristics of all objects of this type and their features. From this class, you will be able to create different models of an object.
+In programming, this concept of a group or category of objects is called a class. 
+A class can be considered as the construction diagram for an object that will define the characteristics of all objects of this type and their features. 
+From this class, you will be able to create different models of an object.
 Let's take a concrete example with a Car class. The plan of a car can be defined by:
 its characteristics, called attributes: it must have four wheels, a color, a shape, an engine power, etc.
 its functionalities, called methods: it can drive, brake, etc.
@@ -230,7 +232,8 @@ You're in luck! Python offers a structure, a class capable of storing multiple p
 
 Lists:
 Lists are objects that can contain a collection of objects of any type. a list containing floats, a list containing strings, or even a list mixing objects of different types.
-Lists are ordered objects, i.e., each item of the list is associated with a number corresponding to its order in the list. This number is called an index and it starts at 0 (not 1!). The first item is therefore associated with index 0, the second with index 1, etc.
+Lists are ordered objects, i.e., each item of the list is associated with a number corresponding to its order in the list. 
+This number is called an index and it starts at 0 (not 1!). The first item is therefore associated with index 0, the second with index 1, etc.
 Declaring a list is quite similar to the declaration of any variable seen so far: via a name to which we associate a list of items to be stored in this name.
 For example, here is the list containing the names of four customers:
 customerName = ['Marion Weaver', 'Alberto Mendoza', 'Katharine Tyler', 'Isaac Steele']
@@ -245,7 +248,8 @@ customerName[0] = 'Marianne Weaver'
 To print it, you can write the following line:
 print(customerName[0])
 
-Python also lets you use negative indices to access or modify an item. The index -1 corresponds to the last item of the list, -2 to the second last, and so on. You can also access an index range by using the  :  operator. For example, 1:3 will let you access items two to four.
+Python also lets you use negative indices to access or modify an item. The index -1 corresponds to the last item of the list,
+-2 to the second last, and so on. You can also access an index range by using the:  operator. For example, 1:3 will let you access items two to four.
 # print the last item
 print(customerName[-1])
 
@@ -297,7 +301,9 @@ guests.remove(‘Martin’) #it will delete Martin from the list
 guests.remove(‘Joey’) #it will delete Joey from the list
 
 Dictionary:
-Dictionaries are another type of object, similar to lists, but which will let you do this with a single variable! Indeed, a dictionary is a list of items organized via a system of keys. With a real dictionary, you look up a word to access its definition. In programming, this word corresponds to the key and the definition to the value associated with it. This is called a key-value pair. So, we could have:
+Dictionaries are another type of object, similar to lists, but which will let you do this with a single variable! 
+Indeed, a dictionary is a list of items organized via a system of keys. With a real dictionary, you look up a word to access its definition. 
+In programming, this word corresponds to the key and the definition to the value associated with it. This is called a key-value pair. So, we could have:
 
 Marion Weaver    Alberto Mendoza    Katharine Tyler    Isaac Steele
   10000                150            300                1800.74
@@ -391,7 +397,8 @@ an expression that results in a boolean value, as in the example above.
 For example:
 weather = "The weather is great!"
 weather.startswith("The weather") # -> True
-startswith  is a method of the string class, which returns   True  when the string starts exactly with the string passed as a parameter;  False , if not. For example, you could use this expression to perform an action if a sentence begins with a particular word.
+startswith  is a method of the string class, which returns   True  when the string starts exactly with the string passed as a parameter;
+False, if not. For example, you could use this expression to perform an action if a sentence begins with a particular word.
 
 To produce Booleans, you can also use comparison operators.
 Comparison Operators: As the name suggests, comparison operators are used to compare two values. There are six main ones:
@@ -424,3 +431,27 @@ The final result is true when at least one of the expressions/values is true. Fo
 not: the NOT operator.
 This simply reverses the result of the given expression. For example, the result of   not(expression)  is true when an expression  is false.
 
+Here are some examples with the results shown as comments:
+True and True # True
+True and False # False
+False and False # False
+True or False # True
+True or True # True
+False or False # False
+not(True) # False
+not(False) # True
+
+You can also mix more than two expressions/values:
+True and True and True # True
+True and True and False # False
+True or False or False # True
+False or False or False # False
+
+As with numeric operations, logical operators respect the priorities of operations: the  not  operator is applied first, then the  and  operator, then the   or  operator. For example:
+False or True and True # True
+not(False) and True or False # True
+
+You can also use parentheses to change the order:
+(True and False) or True # True
+not(True and False or not(True)) # True
+The general form of a conditional if structure is   if condition:  where the condition can be either a boolean, or a variable of boolean type, or the result of an expression leading to a boolean result.
