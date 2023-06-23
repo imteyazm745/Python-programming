@@ -347,3 +347,17 @@ a, b = (1, 'apple')
 print(a) # -> 1
 print(b) # -> 'apple'
 My_tuple[2] = 4 # it will give error.
+
+Let's Recap:
+In this chapter, you have learned all the basics of using Python’s different built-in "collection types":
+Lists: an ordered, editable collection where each item is associated with an index
+Dictionaries: an unordered, editable collection where each item is associated with a key
+Tuples: an ordered, non-mutable collection , where each item is associated with an index
+The most common actions performed with lists and dictionaries are:
+Access an item
+Add an item
+Delete an item
+Modify an item
+Count the number of items stored
+We can perform these different actions via methods.
+The type to use depends on the task at hand. As you progress in your career, you will be able to better identify the structure that is best suited to your situation!
