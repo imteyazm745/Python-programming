@@ -377,3 +377,19 @@ thisCourseIsGreat = True
 itsAuthorIsVeryHumble = False
 Easy, right?
 
+Using Booleans: 
+In Python, to validate a condition, you use a special type (or object  ) called boolean. A Boolean variable can only contain two values: True or False. It's actually a pretty simple thing, but oh so useful!
+In Python, the boolean can take the values True and False. Now see how to declare booleans in Python:
+thisCourseIsGreat = True
+itsAuthorIsVeryHumble = False
+Easy, right?
+To get back to your if conditional structure, I think you'll understand, but it's absolutely necessary that what follows the if keyword results in a boolean. This can be done via:
+a    True  or   False  value. For example,   if True : .
+a boolean variable. For example,   if myVariable:  where   myVariable  is a boolean.
+an expression that results in a boolean value, as in the example above.
+
+For example:
+weather = "The weather is great!"
+weather.startswith("The weather") # -> True
+startswith  is a method of the string class, which returns   True  when the string starts exactly with the string passed as a parameter;  False , if not. For example, you could use this expression to perform an action if a sentence begins with a particular word.
+To produce Booleans, you can also use comparison operators.
