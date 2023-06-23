@@ -392,4 +392,24 @@ For example:
 weather = "The weather is great!"
 weather.startswith("The weather") # -> True
 startswith  is a method of the string class, which returns   True  when the string starts exactly with the string passed as a parameter;  False , if not. For example, you could use this expression to perform an action if a sentence begins with a particular word.
+
 To produce Booleans, you can also use comparison operators.
+Comparison Operators: As the name suggests, comparison operators are used to compare two values. There are six main ones:
+==  equal to (two values are exactly the same)
+!=  different from
+<  less than
+<=  less than or equal to
+>  greater than
+>=  greater than or equal to
+Here are some examples with numeric variables:
+2 == 2 # -> True
+2 == 3 # -> False
+4 != 4 # -> False
+4!= 5 # -> True
+1 < 2 # -> True
+1 < 1 # -> False
+1 <= 1 # -> True
+3 > 4 # -> False
+5 > 4 # -> True
+5 >= 4 # -> True
+
