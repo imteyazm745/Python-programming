@@ -346,13 +346,13 @@ You can also declare several variables at the same time from a tuple:
 a, b = (1, 'apple')
 print(a) # -> 1
 print(b) # -> 'apple'
-My_tuple[2] = 4 # it will give error.
+My_tuple[2] = 4 # it will give an error.
 
 Let's Recap:
 In this chapter, you have learned all the basics of using Python’s different built-in "collection types":
 Lists: an ordered, editable collection where each item is associated with an index
 Dictionaries: an unordered, editable collection where each item is associated with a key
-Tuples: an ordered, non-mutable collection , where each item is associated with an index
+Tuples: an ordered, non-mutable collection, where each item is associated with an index
 The most common actions performed with lists and dictionaries are:
 Access an item
 Add an item
@@ -361,3 +361,19 @@ Modify an item
 Count the number of items stored
 We can perform these different actions via methods.
 The type to use depends on the task at hand. As you progress in your career, you will be able to better identify the structure that is best suited to your situation!
+
+Conditional Structure:
+Print Information if available: Example
+name = input( 'What is your name, dear stranger?')
+if len(name) > 0:
+    print("Hello", name, "!")
+else:
+    print("Hello, world!")
+It works well! Everything indented below the if is executed if the condition is true, otherwise the program runs everything indented below the else.
+Using Booleans: 
+In Python, to validate a condition, you use a special type (or object  ) called boolean. A Boolean variable can only contain two values: True or False. It's actually a pretty simple thing, but oh so useful!
+In Python, the boolean can take the values True and False. Now see how to declare booleans in Python:
+thisCourseIsGreat = True
+itsAuthorIsVeryHumble = False
+Easy, right?
+
