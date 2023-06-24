@@ -498,3 +498,15 @@ Let's Recap:
 Conditions let you execute a block of code when a Boolean, variable, or expression is true (True).
 Expressions use Boolean arithmetic, including logical operators and comparison operators.
 You can apply several conditions with if/elif/else chains.
+
+Loop:
+A loop is a structure that lets you repeat one or more statements, without having to rewrite them each time. There are two types of loops (for and while), which will be explained shortly.
+Loop a set number of times with the for loop
+For loops are used when you know in advance how many times an action will be repeated.
+However, unlike most other languages, in Python a for loop will necessarily iterate through a collection (list, dictionary, string, etc.).
+The for Loop on a Collection
+The conventional use of loops in Python is to directly use the different values of a collection. Here is an example with a list:
+myList = [7,5,76,34]
+for elt in myList:
+    print(elt) #o/p 7, 5, 7, 6, 34
+
