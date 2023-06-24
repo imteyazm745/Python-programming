@@ -475,3 +475,26 @@ myString = "The weather is really good today!"
 "weather" in myString # True
 "really" in myString # True
 "rain?" in myString # False
+
+Manage a chain of conditions:
+To grant a loan, a bank relies (among other things) on the status of its users' accounts. For example, a naive decision rule might be:
+If the customer has more than $10,000 in their account, they are automatically approved for their loan.
+If they have between $100 and $10,000, we need to manually approve their application.
+Otherwise, the request is denied.
+We could use two nested if statements, but Python can link several conditions thanks to the keyword   elif  (contraction of else and if). Here is the general form:
+
+Here is the code corresponding to the example presented above:
+
+account = input("What is your account balance?")
+account = int(account) # transform the answer into an integer
+if account >= 10000:
+    print("Loan granted!")
+elif account >= 100 and account < 10000:
+    print("Loan in process of validation: under study")
+else:
+    print("Loan refused")
+
+Let's Recap:
+Conditions let you execute a block of code when a Boolean, variable, or expression is true (True).
+Expressions use Boolean arithmetic, including logical operators and comparison operators.
+You can apply several conditions with if/elif/else chains.
