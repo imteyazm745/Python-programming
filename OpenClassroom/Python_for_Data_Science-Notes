@@ -181,11 +181,15 @@ A sports car, red, relatively powerful (180 hp)
 A small blue city car, not very powerful (90 hp)
 etc.
 And no matter what the car model, they are all capable of driving or braking, but not with the same performance!
-In summary, a class is the outline of an object, defining its attributes and methods. From the same class, you can therefore create several objects of the same type, but with different attributes—these are called class instances.
+In summary, a class is the outline of an object, defining its attributes and methods. 
+From the same class, you can therefore create several objects of the same type, but with different attributes—these are called class instances.
 
 Focus on Methods:
-A class method is a function that is only available for the instances of this class. If, for example, we consider the Car class presented above having a drive() method, and a Plane class having a fly() method, you will agree quite logically that a plane can’t drive, and a car can’t fly. The same goes for our various objects!
-The use of a method is always done via the   variableName.method()  notation. For example, strings have a method called   lower()  which will transform all the text contained in an object into lower case. Here's how to use it:
+A class method is a function that is only available for the instances of this class. 
+If, for example, we consider the Car class presented above having a drive() method, and a Plane class having a fly() method, 
+you will agree quite logically that a plane can’t drive, and a car can’t fly. The same goes for our various objects!
+The use of a method is always done via the   variableName.method()  notation. 
+For example, strings have a method called   lower()  which will transform all the text contained in an object into lower case. Here's how to use it:
 
 Strings Methods:
 Python has implemented many methods to allow us to do all this. Here are the most common ones:
@@ -455,3 +459,19 @@ You can also use parentheses to change the order:
 (True and False) or True # True
 not(True and False or not(True)) # True
 The general form of a conditional if structure is   if condition:  where the condition can be either a boolean, or a variable of boolean type, or the result of an expression leading to a boolean result.
+
+The  in  Operator
+Another useful logical operator in Python is the   in  operator. This returns   True  when a value is found in a sequence (a string or a list);  False , if not.
+For example:
+myList = [4, 2, 3, 2, 10]
+myStringList = ["a", "b", "c", "d"]
+myString = "The weather is really good today!"
+
+4 in myList # True
+0 in myList # False
+0 in myStringList # False
+"c" in myStringList # True
+"e" in myStringList # False
+"weather" in myString # True
+"really" in myString # True
+"rain?" in myString # False
