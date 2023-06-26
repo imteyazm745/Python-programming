@@ -516,3 +516,11 @@ The loop will store the first value of the list (in this case 7) in the   elt  v
 Then, the whole block of code associated with the for loop (defined via indentation... again!) is run with   elt  holding the first value. Here, this block just involves printing   elt.
 Once this is done,   elt  will take the second value of the list (in this case 2) and the block of code is re-run.
 The loop will continue until all the values in your list have been stored in the    elt  variable and the statements for the loop have been executed for each of them.
+
+The for Loop via an Iterative Integer Value
+Quite often, you will find that you simply need to loop over a range of integer values, e.g. 0, 1, 2, 3….  This is the conventional loop you see most often in languages like Javascript or C++.  Because Python wants to loop over a collection, you need to create a collection containing your range of integer values.
+To do this, you will use the   range(start, stop, step)  function, which will generate a collection of numbers according to three parameters:
+start : the first number of the sequence.
+stop  corresponds to the last number of the sequence, non-inclusive. The function will generate numbers from   start  to   stop-1.
+step :  the step between each generated number.
+
