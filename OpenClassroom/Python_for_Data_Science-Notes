@@ -524,3 +524,20 @@ start : the first number of the sequence.
 stop  corresponds to the last number of the sequence, non-inclusive. The function will generate numbers from   start  to   stop-1.
 step :  the step between each generated number.
 
+Not all parameters are necessary. For example:    for i in range(0, 5, 1):
+for i in range(0, 5, 1):
+    print(i) # -> print from 0 to 4 by steps of 1 (end - 1)
+
+for i in range(0, 5):
+    print(i) # -> prints from 0 to 4 also (default step is 1)
+
+for i in range(5):
+    print(i) # -> prints from 0 to 4 also (default start is 0)
+
+for i in range(0, 5, 2):
+    print(i) # -> print 0, 2 then 4
+
+The iterative variable can take any name. When iterating over an integer, we usually use values like   i ,   j , or k. 
+Otherwise, it is better to use explicit names, as seen above ( elt being the abbreviation for item).
+The for loop is perfectly suited when you have to perform an action a certain number of times known in advance or an action for each item of a collection. 
+For all other cases, we can make a conditional loop: a loop that does not iterate through a collection, but according to a condition.
