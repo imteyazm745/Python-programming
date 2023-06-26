@@ -541,3 +541,49 @@ The iterative variable can take any name. When iterating over an integer, we usu
 Otherwise, it is better to use explicit names, as seen above ( elt being the abbreviation for item).
 The for loop is perfectly suited when you have to perform an action a certain number of times known in advance or an action for each item of a collection. 
 For all other cases, we can make a conditional loop: a loop that does not iterate through a collection, but according to a condition.
+
+Loop according to a condition with the while loop:
+The conditional loop is the while loop in Python.
+As its name implies, the while loop will run as long as a condition is met. It is a kind of combination of a for loop and an if structure. The number of repetitions is not defined in advance, but via a condition to be fulfilled, as with an if. This is called a Conditional loop.
+The syntax is as follows:
+while expressionLogic:
+    # block to execute
+It can be interpreted as: as long as my logical expression is true, run the statement block.
+
+Here's how it works:
+The program checks that   expressionLogic  is equal to   True.
+If this is the case, the indented statements following the   :   are run. Once this is done, we return to step one.
+Otherwise, the program exits the loop without running the statements.
+Try the example below:
+numberTrees = 0
+while numberTrees < 10:
+    numberTrees += 1
+    print("I planted", numberTrees, "trees")
+print("I have a nice forest!")
+I planted 1 trees 
+I planted 2 trees
+I planted 3 trees
+I planted 4 trees
+I planted 5 trees
+I planted 6 trees
+I planted 7 trees
+I planted 8 trees
+I planted 9 trees
+I planted 10 trees
+I have a nice forest!
+
+Exercise:
+Create a for loop that prints: “OpenClassroom is really great!” five times
+for i in range(5):
+    print("OpenClassrooms is really great!")
+Change for loop to a while loop:
+i = 0
+while i < 5:
+    print("OpenClassrooms is really great!")
+    i += 1
+OpenClassrooms is really great!
+OpenClassrooms is really great!
+OpenClassrooms is really great!
+OpenClassrooms is really great!
+OpenClassrooms is really great!
+
