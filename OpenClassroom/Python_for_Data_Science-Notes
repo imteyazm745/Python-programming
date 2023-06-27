@@ -152,7 +152,8 @@ perimeter2 = calculatePerimeter(10, 3, 11)
 print("The perimeter of my first triangle is", perimeter1, "and that of my second is", perimet
 
 Use the help function if you forget:
-Sometimes you often remember the name of a function, but not necessarily what it does or its arguments, etc. Don’t panic! The help function is there for that! If you run help(funtionName), this will print the documentation of this function summarizing:
+Sometimes you often remember the name of a function, but not necessarily what it does or its arguments, etc. 
+Don’t panic! The help function is there for that! If you run help(funtionName), this will print the documentation of this function summarizing:
 its purpose.
 recommendations for use.
 the list and description of the parameters.
@@ -518,7 +519,9 @@ Once this is done,   elt  will take the second value of the list (in this case 2
 The loop will continue until all the values in your list have been stored in the    elt  variable and the statements for the loop have been executed for each of them.
 
 The for Loop via an Iterative Integer Value
-Quite often, you will find that you simply need to loop over a range of integer values, e.g. 0, 1, 2, 3….  This is the conventional loop you see most often in languages like Javascript or C++.  Because Python wants to loop over a collection, you need to create a collection containing your range of integer values.
+Quite often, you will find that you simply need to loop over a range of integer values, e.g. 0, 1, 2, 3….  
+This is the conventional loop you see most often in languages like Javascript or C++.  
+Because Python wants to loop over a collection, you need to create a collection containing your range of integer values.
 To do this, you will use the   range(start, stop, step)  function, which will generate a collection of numbers according to three parameters:
 start : the first number of the sequence.
 stop  corresponds to the last number of the sequence, non-inclusive. The function will generate numbers from   start  to   stop-1.
@@ -544,7 +547,8 @@ For all other cases, we can make a conditional loop: a loop that does not iterat
 
 Loop according to a condition with the while loop:
 The conditional loop is the while loop in Python.
-As its name implies, the while loop will run as long as a condition is met. It is a kind of combination of a for loop and an if structure. The number of repetitions is not defined in advance, but via a condition to be fulfilled, as with an if. This is called a Conditional loop.
+As its name implies, the while loop will run as long as a condition is met. It is a kind of combination of a for loop and an if structure. 
+The number of repetitions is not defined in advance, but via a condition to be fulfilled, as with an if. This is called a Conditional loop.
 The syntax is as follows:
 while expressionLogic:
     # block to execute
