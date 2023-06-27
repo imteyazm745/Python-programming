@@ -620,3 +620,18 @@ i != 2 & i != 5
 9
 i != 2 & i != 5
 
+You can also decide to interrupt the loop, for example when looking for a particular item in a list. For this, you will use the   break  keyword.
+basket = ["apple", "orange", "banana"]
+for fruit in basket:
+    if fruit == "orange":
+        print("I have an orange!")
+        break
+O/P => I have an orange!
+Let's Recap:
+In this chapter, you have discovered two types of loops:
+The loop for repeating an action a certain number of times, or according to a sequence: the for loop.
+The loop that allows you to repeat an action as long as a condition is true: the while loop.
+There is a common mistake that you must not make with the while loop: the infinite loop!
+You can choose to skip certain loop iterations via the continue keyword.
+The cycles of the loop can be interrupted via the break command.
+
