@@ -587,3 +587,36 @@ OpenClassrooms is really great!
 OpenClassrooms is really great!
 OpenClassrooms is really great!
 
+Skip some statements(continue, break):
+Regardless of the type of loop, there will be situations where you will want to skip some of the iterations within your loop, or even terminate the loop prematurely.
+For example, you want to repeat something 10 times, but skip (at least partially) when the value is 2 or 5. In Python, to force the start of the next loop iteration, use the keyword continue:
+for i in range(10):
+    # statements executed at each iteration
+    print(i)
+    if (i == 2) or (i == 5):
+        print("Special case")
+        continue
+    # statements not executed if i == 2 or 5
+    print("i != 2 & i != 5")
+output:
+0
+i != 2 & i != 5
+1
+i != 2 & i != 5
+2
+Special case
+3
+i != 2 & i != 5
+4
+i != 2 & i != 5
+5
+Special case
+6
+i != 2 & i != 5
+7
+i != 2 & i != 5
+8
+i != 2 & i != 5
+9
+i != 2 & i != 5
+
