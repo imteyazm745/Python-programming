@@ -639,3 +639,19 @@ There is a common mistake that you must not make with the while loop: the infini
 You can choose to skip certain loop iterations via the continue keyword.
 The cycles of the loop can be interrupted via the break command.
 
+Python Modules and Libraries:
+Python Module:
+A module is a Python file containing a set of predefined and operational functions, classes, and variables, which you can use as you wish in your code!
+For example, if you are working on a problem involving geometry, you might need:
+classes:
+    Square—defined by the length of its side
+    Triangle—defined by the length of its three sides
+    Circle—defined by its radius
+    Etc.
+variables:
+    Pi: constant necessary for calculating the area of a circle, equal to 3.1415...
+    Phi: a constant that represents the golden ratio, equal to 1.6180...
+functions:
+    Area: takes as a parameter a geometrical object (square, triangle, etc.) and calculates its area
+    Angles: takes a triangle as a parameter, and calculates its internal angles
+    Etc.
