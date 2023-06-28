@@ -678,3 +678,21 @@ class triangle(object):
         self.a = a
         self.b = b
         self.c = c
+
+#To import a module, you will need the  import  keyword. Here is an example with our geometry module:
+import geometry
+
+#After doing this, you can use the different items defined in your module:
+squa = geometry.square(4)
+tri = geometry.triangle(3, 6, 5)
+print(geometry.pi) # -> 3.14159265359
+geometry.area(squa) # -> 16
+
+All items included in the geometry module can be used via the   moduleName.  notation, i.e.,  moduleName.function()  or   moduleName.variable. So, in the above example, we can use  geometry.area()  or  geometry.pi. If you don't want to rewrite geometry every time, you have two other options:
+Either give an alias to the name of your module, so you only have to write the alias:
+import geometry as geo # we can now access geo.area() or geo.pi
+Or, import specific functions that you can then use as native Python functions/variables (without the  .  notation):
+from geometry import pi
+print(pi) # -> 3.14159265359
+A particular case of this last method is to import in one line all the objects contained in a module via the  *  notation. However, this is not the recommended method, in order to avoid, for example, conflicts between several modules that might have identical function names.
+from geometry import *
