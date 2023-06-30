@@ -1,3 +1,7 @@
+# Check the Python Version on the computer;
+import sys
+print(sys.version)
+
 Variable:  
 A variable is basically nothing but the name of a memory location that we use for storing data. We can change the value of a variable in C or any other language, and we can also reuse it multiple times.
 
@@ -703,3 +707,12 @@ For example, you could have stored your geometry module in three different files
 One for classes: classes.py
 One for variables: variables.py
 One for functions: functions.py
+
+You will need to use the. operator to access the module after importing the package:
+import geometry # import all the geometry package
+print(geometry.variables.pi) # -> 3.1415...
+squa = geometry.classes.square(4)
+geometry.functions.area(squa) # -> 16
+Or, you can also import only one module from the package:
+import geometry.variables as var # import only what is defined in variables.py
+print(var.pi) # -> 3.1415...
