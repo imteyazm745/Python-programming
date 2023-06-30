@@ -276,10 +276,10 @@ print(strangeList[3])
 
 List Methods:
 Here are some other methods that are essential to know about lists:
-append(): to add the values in the list, and append() takes exactly one argument
+append(): to add the values in the list, and append() takes exactly one argument. Append only adds one element to the list.
 insert  to insert a new item at a specific position. For example,   list.insert(1, 12)  will insert the integer 12 at index 1, moving the old item 1 to index 2 and so on.
 extend :  similar to append, but with another list. This allows you to concatenate several lists together.
-remove : searches for the given item in the list and deletes the first occurrence. For example, if you want to delete 5 from your list, you can use :  list.remove(5) .
+remove : searches for the given item in the list and deletes the first occurrence. For example, if you want to delete 5 from your list, you can use:  list.remove(5) .
 index : this method lets you find the index of the first occurrence of an item to be searched for in our list;
 Keyword  del  to delete an item according to its index.
 Now let's try out some of these methods:
@@ -716,3 +716,17 @@ geometry.functions.area(squa) # -> 16
 Or, you can also import only one module from the package:
 import geometry.variables as var # import only what is defined in variables.py
 print(var.pi) # -> 3.1415...
+
+print(var.pi) # -> 3.1415...
+
+Packages in Data Analysis
+Packages are ubiquitous in data analysis with Python. Indeed, many packages have been created specifically to address the issues that this subject involves. As you progress, you will be required to:
+manipulate your data to facilitate analysis.
+make various relevant graphs representing the behavior of your data.
+use statistical methods.
+run machine learning algorithms of varying complexity.
+etc.
+To come back to your initial problem (having a square root function), there is for example the numpy package which offers the necessary function—and many other things!
+import numpy as np
+np.sqrt(16) # -> 4.0
+In order to solidify the concept of packages, we will look at a concrete example of the use of therandom package in the next chapter.
