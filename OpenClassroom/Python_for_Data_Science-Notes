@@ -730,4 +730,11 @@ etc.
 To come back to your initial problem (having a square root function), there is for example the numpy package which offers the necessary function—and many other things!
 import numpy as np
 np.sqrt(16) # -> 4.0
-In order to solidify the concept of packages, we will look at a concrete example of the use of therandom package in the next chapter.
+
+Let's Recap
+In this chapter, together we have seen the basics of using modules and packages:
+A module is a file containing Python code (.py extension) that can define functions, classes, and/or variables.
+You can import any Python module via the import keyword.
+To use a function class or a variable within a module, you must use the  .  operator.
+A package is a set of several Python modules.
+There are many packages specifically created for data analysis.
