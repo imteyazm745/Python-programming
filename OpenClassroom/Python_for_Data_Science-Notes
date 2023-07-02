@@ -742,3 +742,11 @@ You can import any Python module via the import keyword.
 To use a function class or a variable within a module, you must use the.  operator.
 A package is a set of several Python modules.
 There are many packages specifically created for data analysis.
+
+Random Module
+In Python, the random module contains several functions for generating random numbers or sequences of numbers.
+Generate Random Numbers
+First, import your random module. The name of the package in Python is... random:
+	import random
+The basic function for generating random numbers is called... random() as well (how original!). 
+It will generate a random float between 0 and 1 (not including 0 or 1). Let's try a simple example by displaying three random numbers:
