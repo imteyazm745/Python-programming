@@ -693,17 +693,21 @@ tri = geometry.triangle(3, 6, 5)
 print(geometry.pi) # -> 3.14159265359
 geometry.area(squa) # -> 16
 
-All items included in the geometry module can be used via the   moduleName.  notation, i.e.,  moduleName.function()  or   moduleName.variable. So, in the above example, we can use  geometry.area()  or  geometry.pi. If you don't want to rewrite geometry every time, you have two other options:
+All items included in the geometry module can be used via the   moduleName.  notation, i.e.,  moduleName.function()  or   moduleName.variable. 
+So, in the above example, we can use  geometry.area()  or  geometry.pi. If you don't want to rewrite geometry every time, you have two other options:
 Either give an alias to the name of your module, so you only have to write the alias:
 import geometry as geo # we can now access geo.area() or geo.pi
 Or, import specific functions that you can then use as native Python functions/variables (without the  .  notation):
 from geometry import pi
 print(pi) # -> 3.14159265359
-A particular case of this last method is to import in one line all the objects contained in a module via the  *  notation. However, this is not the recommended method, in order to avoid, for example, conflicts between several modules that might have identical function names.
+A particular case of this last method is to import in one line all the objects contained in a module via the  *  notation. However, 
+this is not the recommended method, in order to avoid, for example, conflicts between several modules that might have identical function names.
 from geometry import *
 
 When a Module is Not Enough: Packages
-A package (sometimes called a library) is a collection, a set of Python modules. As you have seen above, a module is a Python file. A package is simply a folder containing several Python files (.py) and an additional file named   __init__.py. This differentiates a package from an ordinary folder containing only Python codes.
+A package (sometimes called a library) is a collection, a set of Python modules. As you have seen above, a module is a Python file. 
+A package is simply a folder containing several Python files (.py) and an additional file named   __init__.py. 
+This differentiates a package from an ordinary folder containing only Python codes.
 For example, you could have stored your geometry module in three different files instead of just one:
 One for classes: classes.py
 One for variables: variables.py
@@ -727,7 +731,7 @@ make various relevant graphs representing the behavior of your data.
 use statistical methods.
 run machine learning algorithms of varying complexity.
 etc.
-To come back to your initial problem (having a square root function), there is for example the numpy package which offers the necessary function—and many other things!
+To come back to your initial problem (having a square root function), there is, for example, the NumPy package which offers the necessary function—and many other things!
 import numpy as np
 np.sqrt(16) # -> 4.0
 
@@ -735,6 +739,6 @@ Let's Recap
 In this chapter, together we have seen the basics of using modules and packages:
 A module is a file containing Python code (.py extension) that can define functions, classes, and/or variables.
 You can import any Python module via the import keyword.
-To use a function class or a variable within a module, you must use the  .  operator.
+To use a function class or a variable within a module, you must use the.  operator.
 A package is a set of several Python modules.
 There are many packages specifically created for data analysis.
