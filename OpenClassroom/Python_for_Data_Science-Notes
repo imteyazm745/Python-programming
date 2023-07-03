@@ -750,3 +750,7 @@ First, import your random module. The name of the package in Python is... random
 	import random
 The basic function for generating random numbers is called... random() as well (how original!). 
 It will generate a random float between 0 and 1 (not including 0 or 1). Let's try a simple example by displaying three random numbers:
+
+Absolutely! But the people who created the random package, fortunately, thought of everything. There are other functions that let you generate a random number in a given range:
+uniform(a, b): will generate a random float between   a  and  b.
+randint(a, b): as its name suggests, this one is similar to   uniform  except that the random number generated is an integer this time!
