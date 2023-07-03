@@ -436,7 +436,7 @@ and: the AND operator.
 The final result is true only when all expressions/values are true. For example, the result of  expression1 and expression2  will be True only if   expression1  is true AND expression2  is also true.
 
 or: the OR operator.
-The final result is true when at least one of the expressions/values is true. For example: the result of  expression1  or  expression2   will be at True if   expression1  is true OR expression2  is true.
+The final result is true when at least one of the expressions/values is true. For example: the result of  expression1 or expression2   will be at True if   expression1  is true OR expression2  is true.
 
 not: the NOT operator.
 This simply reverses the result of the given expression. For example, the result of   not(expression)  is true when an expression  is false.
