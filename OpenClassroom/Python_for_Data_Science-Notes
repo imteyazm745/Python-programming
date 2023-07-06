@@ -3,7 +3,8 @@ import sys
 print(sys.version)
 
 Variable:  
-A variable is basically nothing but the name of a memory location that we use for storing data. We can change the value of a variable in C or any other language, and we can also reuse it multiple times.
+A variable is basically nothing but the name of a memory location that we use for storing data. 
+We can change the value of a variable in C or any other language, and we can also reuse it multiple times.
 
 Creating a Variable:  
 checkingAccount = 500
@@ -68,7 +69,8 @@ print(c)
 # it's a float
 
 Concatenation:
-However, you can force the conversion of a variable into a well-defined type. This is called typecasting because by doing so you are changing (casting) the type of a variable. To do this, you will need the corresponding functions:
+However, you can force the conversion of a variable into a well-defined type. This is called typecasting because doing 
+so you are changing (casting) the type of a variable. To do this, you will need the corresponding functions:
 a = 14.0
 # a is a float
 a = int(a)
@@ -85,7 +87,8 @@ print(favorites) # => "San FranciscoNew York"
 favorites1 = "My favorite cities are " + favoriteCityOne + " and "+ favoriteCityTwo
 print(favorites1) # -> "My favorite cities are San Francisco and New York"
 
-However, you cannot concatenate other types of variables with strings, such as numeric variables---this would return an error. To remedy this, you will need to cast your numeric variable to a string, via the  str()  function:
+However, you cannot concatenate other types of variables with strings, such as numeric variables---this would return an error. 
+To remedy this, you will need to cast your numeric variable to a string, via the  str()  function:
 
 city = "Sydney"
 numberTrips = 5
@@ -146,7 +149,8 @@ Often, when you use a function in a code, you expect an answer that you can reus
 
 Define a Return Value
 To define a return value, you must explicitly use the return keyword at the end of your function.
-You could change your   printPerimeter  function into   calculatePerimeter  which will return the perimeter of a triangle, according to the length of its three sides, so that it can be reused afterwards:
+You could change your printPerimeter  function into calculatePerimeter which will return 
+the perimeter of a triangle, according to the length of its three sides, so that it can be reused afterwards:
 def calculatePerimeter(dimension1, dimension2, dimension3):
     perimeter = dimension1 + dimension2 + dimension3
     return perimeter
