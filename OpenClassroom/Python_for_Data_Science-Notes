@@ -352,7 +352,8 @@ The main difference is that once a tuple has been declared, it cannot be modifie
 We can't modify a tuple? So what's the point of it?!
 They might not seem to provide much benefit at first sight, but they can be used:
 when you want to make sure that data is not modified within a program.
-to return several values from a function. Indeed, we didn't address this point when we talked about functions, but it is possible to return several values... with a tuple!
+to return several values from a function. Indeed, we didn't address this point when we talked about functions, 
+but it is possible to return several values... with a tuple!
 to declare several variables in one line.
 
 Declare a Tuple
@@ -380,7 +381,8 @@ Delete an item
 Modify an item
 Count the number of items stored
 We can perform these different actions via methods.
-The type to use depends on the task at hand. As you progress in your career, you will be able to better identify the structure that is best suited to your situation!
+The type to use depends on the task at hand. As you progress in your career, you will be able to better 
+identify the structure that is best suited to your situation!
 
 Conditional Structure:
 Print Information if available: Example
@@ -391,19 +393,22 @@ else:
     print("Hello, world!")
 It works well! Everything indented below the if is executed if the condition is true, otherwise the program runs everything indented below the else.
 Using Booleans: 
-In Python, to validate a condition, you use a special type (or object  ) called boolean. A Boolean variable can only contain two values: True or False. It's actually a pretty simple thing, but oh so useful!
+In Python, to validate a condition, you use a special type (or object  ) called boolean. 
+A Boolean variable can only contain two values: True or False. It's actually a pretty simple thing, but oh so useful!
 In Python, the boolean can take the values True and False. Now see how to declare booleans in Python:
 thisCourseIsGreat = True
 itsAuthorIsVeryHumble = False
 Easy, right?
 
 Using Booleans: 
-In Python, to validate a condition, you use a special type (or object  ) called boolean. A Boolean variable can only contain two values: True or False. It's actually a pretty simple thing, but oh so useful!
+In Python, to validate a condition, you use a special type (or object  ) called boolean. 
+A Boolean variable can only contain two values: True or False. It's actually a pretty simple thing, but oh so useful!
 In Python, the boolean can take the values True and False. Now see how to declare booleans in Python:
 thisCourseIsGreat = True
 itsAuthorIsVeryHumble = False
 Easy, right?
-To get back to your if conditional structure, I think you'll understand, but it's absolutely necessary that what follows the if keyword results in a boolean. This can be done via:
+To get back to your if conditional structure, I think you'll understand, 
+but it's absolutely necessary that what follows the if keyword results in a boolean. This can be done via:
 a    True  or   False  value. For example,   if True : .
 a boolean variable. For example,   if myVariable:  where   myVariable  is a boolean.
 an expression that results in a boolean value, as in the example above.
@@ -437,10 +442,12 @@ Here are some examples with numeric variables:
 Logical Operators
 These operators will let you mix several Boolean values: specific Boolean values or expression results. There are three of them:
 and: the AND operator.
-The final result is true only when all expressions/values are true. For example, the result of  expression1 and expression2  will be True only if   expression1  is true AND expression2  is also true.
+The final result is true only when all expressions/values are true. 
+For example, the result of  expression1 and expression2  will be True only if   expression1  is true AND expression2  is also true.
 
 or: the OR operator.
-The final result is true when at least one of the expressions/values is true. For example: the result of  expression1 or expression2   will be at True if   expression1  is true OR expression2  is true.
+The final result is true when at least one of the expressions/values is true. 
+For example: the result of  expression1 or expression2   will be at True if   expression1  is true OR expression2  is true.
 
 not: the NOT operator.
 This simply reverses the result of the given expression. For example, the result of   not(expression)  is true when an expression  is false.
