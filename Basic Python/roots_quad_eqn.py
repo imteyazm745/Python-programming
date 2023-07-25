@@ -21,3 +21,14 @@ def find_roots(a, b, c):
         print("Complex Roots")
         print(-b/(2*a),"+i", sqrt_val)
         print(-b/(2*a),"-i", sqrt_val)
+        
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+
+# if a is 0, then incorrect equation
+if a ==0:
+    print("Input correct quadratic equation")
+    
+else:
+    findRoots(a, b, c)
