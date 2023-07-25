@@ -31,4 +31,4 @@ if a ==0:
     print("Input correct quadratic equation")
     
 else:
-    findRoots(a, b, c)
+    find_roots(a, b, c)
