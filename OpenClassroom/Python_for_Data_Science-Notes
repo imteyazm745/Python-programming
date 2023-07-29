@@ -773,4 +773,3 @@ The random module goes a step further by offering a function that lets you make 
 liste = ['one', 'two', 'three', 'four', 'five']
 for i in range(3):
     print(random.choice(liste)) #'one', 'four', 'three'
-
