@@ -729,10 +729,11 @@ import geometry # import all the geometry package
 print(geometry.variables.pi) # -> 3.1415...
 squa = geometry.classes.square(4)
 geometry.functions.area(squa) # -> 16
+
 Or, you can also import only one module from the package:
+
 import geometry.variables as var # import only what is defined in variables.py
 print(var.pi) # -> 3.1415...
-
 print(var.pi) # -> 3.1415...
 
 Packages in Data Analysis
