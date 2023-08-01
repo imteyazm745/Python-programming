@@ -647,6 +647,7 @@ for fruit in basket:
         print("I have an orange!")
         break
 O/P => I have an orange!
+
 Let's Recap:
 In this chapter, you have discovered two types of loops:
 The loop for repeating an action a certain number of times, or according to a sequence: the for loop.
