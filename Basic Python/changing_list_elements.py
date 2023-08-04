@@ -22,3 +22,11 @@ def swapList(list):
 
 list = [15, 40, 5, 97, 21]
 print(swapList(list))
+
+# Approach 1: swap first and last elements
+def swappingList(list1):
+    list1[0], list1[-1] = list1[-1], list1[0]
+    return list1
+
+list1 = [15, 40, 5, 97, 21]
+print(swappingList(list1))
