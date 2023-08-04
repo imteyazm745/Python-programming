@@ -32,3 +32,10 @@ list1 = [15, 40, 5, 97, 21]
 print(swappingList(list1))
 
 # Approach 3: swap first and last elements
+def swapList2(list2):
+    get = list2[-1], list2[0]
+    list2[0], list2[-1] = get
+    return list2
+
+newlist2 = [15, 40, 5, 97, 21]
+print(swapList2(newlist2))
