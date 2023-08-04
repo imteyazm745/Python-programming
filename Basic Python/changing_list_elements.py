@@ -48,3 +48,12 @@ a, *b, c = list
 print(a)
 print(b)
 print(c)
+
+# Approaches 4:
+def swapList4(list4):
+    start, *middle, end = list4
+    list4 = [end, middle, start]
+    return list4
+
+newlist4 = [1, 2, 3, 4]
+print(newlist4)
