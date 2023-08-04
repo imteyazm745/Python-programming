@@ -39,3 +39,12 @@ def swapList2(list2):
 
 newlist2 = [15, 40, 5, 97, 21]
 print(swapList2(newlist2))
+
+# Approach 3:
+list = [1, 2, 3, 4]
+
+a, *b, c = list
+
+print(a)
+print(b)
+print(c)
